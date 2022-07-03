@@ -1,0 +1,10 @@
+eat = ["chocolate", "eggs", "cheese"]
+print(eat[1])
+print(eat[0:4])
+eat.append("tomato")
+print(eat)
+eat.insert(1, "salad")
+print(eat)
+eat.remove("salad")
+eat.sort()
+print(eat)
