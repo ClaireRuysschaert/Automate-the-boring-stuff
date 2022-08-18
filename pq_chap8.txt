@@ -1,0 +1,7 @@
+no, we have to install it with pip install
+to gain time (shorter to type)
+inputInt() only int / inputFloat() only float 
+pyip.inputInt(min=0, max=99)
+A list of regex strings that are either explicitly allowed or denied
+The function will raise RetryLimitException.
+The function returns the value 'hello'.
