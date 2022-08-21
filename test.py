@@ -1,4 +1,2 @@
-import pyperclip
-
-pyperclip.copy('Yuki!')
-pyperclip.paste()
+import os 
+os.makedirs('C:\\delicious\\walnut\\waffles')
