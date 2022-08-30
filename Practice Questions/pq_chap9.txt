@@ -1,0 +1,14 @@
+1. relative to the current working directory
+2. strats with the root folder (C:\)
+3. Path('C:/Users') / 'Al' -> C:/Users/Al
+4. 'C:/Users' / 'Al' -> error (can't use / on 2 strings)
+5. os.getcwwd() = returns the cwd / os.chdir() = changes the cwd
+6. ". folder" = current folder / ".. folder" = parent folder
+7. C:\bacon\eggs\spam.txt, dir name = C:\bacon\eggs / base name = spam.txt
+8. write mode = w, append mode = a, read mode = r
+9. the file is erased and completely overwritten
+10. read() = returns the file’s entire contents as a single string value. 
+    readlines() = returns a list of strings: 1 retour à la ligne par ligne
+11. A shelf value resembles a dictionary value; it has keys and values, 
+along with keys() and values() methods that work similarly to the dictionary 
+methods of the same names.

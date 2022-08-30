@@ -1,0 +1,11 @@
+#chap6
+# 1) characters in string values that would otherwise be difficult or impossible to type into code.
+# 2) \n = return to the lign; \t = tab
+# 3) \\
+# 4) double quotes
+# 5) Multilines
+# 6) e, 'Hello', 'Hello', 'lo, world!'
+# 7) HELLO, True, hello
+# 8) ['Remember', 'remember', 'the', 'fifth', 'of', 'November.']
+# 9) rjust(), ljust(), center()
+# 10) lstrip() / rstrip()

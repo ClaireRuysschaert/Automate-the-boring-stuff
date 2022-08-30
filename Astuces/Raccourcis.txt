@@ -1,0 +1,4 @@
+retour à la ligne = alt Z
+ajouter la sélection en commentaire = maintenir CTRL + K+C
+retirer la sélection en commentaire = maintenir CTRL + K+U
+formater le retour à la ligne = CTRL + K+F
