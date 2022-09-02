@@ -1,0 +1,4 @@
+shutil.copy() = copy one file / shutil.copytree() = copy a folder with all the contents
+function used to rename files = shutil.move(file, new name)
+send2trash send files/folders to recycle bin, delete deletes permanently
+The zipfile.ZipFile() function is equivalent to the open() function; the first argument is the filename, and the second argument is the mode to open the ZIP file in (read, write, or append).
