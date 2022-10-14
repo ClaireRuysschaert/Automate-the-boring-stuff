@@ -1,0 +1,15 @@
+1- assert spam >= 10, 'The spam variable is less than 10.'
+2- assert eggs.lower() != bacon.lower, 'eggs and bacon contains a same string'
+3- assert False, 'This assertion always triggers'
+4- import logging 
+logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s -%(levelname)s - %(message)s')
+5- add filename = 'programLog.txt'
+6- debug - info - warning - error - critical 
+7- logging.disable(logging.CRITICAL)
+8- why logging better than print : You can disable logging messages without removing the logging function
+calls. You can selectively disable lower-level logging messages. You can create logging messages. Logging messages provides a timestamp.
+9- Step out = execute all the code; step in = va dans la fct; step over = execute la fct en ignorant son contenu
+10- Continue -> end of the programm or a breakpoint
+11- A breakpoint is a setting on a line of code that causes the debugger to
+pause when the program execution reaches the line. 
+12- clic to the left of the line : red dot
