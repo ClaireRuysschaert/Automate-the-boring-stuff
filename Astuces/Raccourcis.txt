@@ -2,3 +2,13 @@ retour à la ligne = alt Z
 ajouter la sélection en commentaire = maintenir CTRL + K+C
 retirer la sélection en commentaire = maintenir CTRL + K+U
 formater le retour à la ligne = CTRL + K+F
+
+Command line : use Powershell on windows
+ls = liste des dossiers dans le pwd (present working directory)
+
+Si pas d'accès au fichier = pas dans le bon dossier de travail : 
+    cd = change dossier à droite
+    cd.. = change de dossier à gauche
+Si on veut accéder au fichier n'importe où
+    from pathlib import Path 
+    Path(__file__).parent / "nom du fichier.xxx"
