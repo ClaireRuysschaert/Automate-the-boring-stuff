@@ -1,3 +1,5 @@
+# web scraper wich find the qualities of Yuki in my website
+
 import bs4, requests, lxml
 
 requete = requests.get("https://claireruysschaert.github.io/")

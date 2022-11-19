@@ -1,26 +1,23 @@
 # searchpypi.py - Opens several search results.
 
-import requests, sys, webbrowser, bs4
+import requests, sys, webbrowser, bs4, lxml
 
 #1# Get the command line arg and request the search page
 print('Searching...') # display text while downloading the search result page
-res = requests.get('https://google.com/search?q=' 'https://pypi.org/search/?q='
-+ ' '.join(sys.argv[1:]))
-res.raise_for_status()
+url = 'https://pypi.org/search/?q=' + ' '.join(sys.argv[1:])
+requete = requests.get(url)
+requete.raise_for_status()
 
 #2# Find all results
-# Retrieve top search result links.
-soup = bs4.BeautifulSoup(res.text, 'html.parser')
+#Retrieve top search result links.
+soup = bs4.BeautifulSoup(requete.text, 'lxml')
 
-div_nulle = soup.select('#xe7COe')
-div_nulle.clear()
-print(soup)
-# Open a browser tab for each result.
-linkElems = soup.select('.yuRUbf')
+search_results = soup.find_all(attrs={'class':'package-snippet'})
 
-print(linkElems)
-numOpen = min(5, len(linkElems))
-# for i in range(numOpen):
-#     urlToOpen = 'https://pypi.org' + linkElems[i].get('href')
-#     print('Opening', urlToOpen)
-#     webbrowser.open(urlToOpen)
+# Open a browser tab for 5 result.
+numOpen = min(5, len(search_results))
+
+for i in range(numOpen):
+    urlToOpen = 'https://pypi.org' + search_results[i].get('href')
+    print('Opening', urlToOpen)
+    webbrowser.open(urlToOpen)
