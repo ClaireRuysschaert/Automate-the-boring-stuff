@@ -1,0 +1,30 @@
+1) webbrowser : open() method that will launch a web
+browser to a specific URL 
+request : request the html file from the web
+bs4 : parse an html file
+selenium : launch and control a browser
+2) return a response object, request.text
+3) raise_for_status()
+4) status_code
+5) open a new file ('wb'), for loop that iterates 
+over the response object (iter_content())
+saveFile = open('filename.html', 'wb')
+for chunk in res.iter_content(100000):
+    saveFile.write(chunk)
+6) F12
+7) inspect
+8) '#main'
+9) '.highlight'
+10) 'div.div'
+11) 'button[value="favorite"]'
+12) spam.getText()
+13) linkElem.attrs
+14) from selenium import webdriver
+15) find_element_ : return the first matching element as a
+WebElement object
+    find_elements_ : return a list of all matching
+elements as WebElement objects
+16) click() : simulate mouse clicks
+    send_keys() = simulate keyboard keys
+17) submit a form easy= submit() method
+18) forward(), back(), and refresh()
