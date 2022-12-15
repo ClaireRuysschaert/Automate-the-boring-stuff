@@ -21,5 +21,3 @@ def which_one():
         print(f'{keys} : ' + ', '.join(values_list))
 
 which_one()
-
-# default dict from collection import DD
