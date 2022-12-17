@@ -26,7 +26,7 @@ for each_row in range(2,N+2):
 
 # Font the first row and column
 bold_font = Font(bold = True)
-for i in range(1, 101):
+for i in range(1, N+2):
     ws.cell(row=i, column=1).font = bold_font
     ws.cell(row=1, column=i).font = bold_font
 
