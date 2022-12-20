@@ -1,0 +1,14 @@
+A File object returned from open()
+Read-binary ('rb') for PdfFileReader() and write-binary ('wb') for PdfFileWriter()
+objReader.getPage(0) #0 = 1st page
+pdfReader.numPages
+pdf_reader.decrypt("swordfish")
+page.rotateClockwise(90) # 90, 180 or 270
+docx.Document('demo.docx')
+paragraph = contient runs list; runs = text with style bounderies
+doc.paragraphs
+runs
+true = always makes the Run object bolded; false = never bolded; None = use the style’s bold setting
+doc = docx.Document()
+doc.add_paragraph('Hi, there!')
+0 to 4
