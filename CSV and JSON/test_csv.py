@@ -3,12 +3,12 @@ from pathlib import Path
 
 # reader and writer obj (use lists)
 exemple_file = open(Path.cwd() / "example.csv")
-example_reader = csv.reader(exemple_file)
+example_reader = csv.reader(exemple_file) #file obj
 exemple_data = list(example_reader)
 print(exemple_data)
 # access value with exemple_data[row][column]
 
-#writer object
+#writer object : list argument to CSV file = writerow()
 outputFile = open('output.csv', 'w', newline='') #write mode
 outputWriter = csv.writer(outputFile)
 outputWriter.writerow(['spam', 'eggs', 'bacon', 'ham'])

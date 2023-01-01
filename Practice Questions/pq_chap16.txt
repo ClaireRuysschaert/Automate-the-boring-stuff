@@ -1,0 +1,7 @@
+headings, font, formula, images, charts, etc
+You pass a File object, obtained from a call to open()
+File objects need to be opened in read-binary ('rb') for reader objects and write-binary ('wb') for writer objects.
+writerow() method
+he delimiter argument changes the string used to separate cells in a row. The lineterminator argument changes the string used to separate rows.
+json.loads()
+json.dumps()
