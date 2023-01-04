@@ -1,0 +1,8 @@
+reference of time from 01/01/1970
+time.time()
+time.sleep(5)
+the closest integers of the float argument passed
+date time obj = a time point / time delta = duration of time
+datetime.datetime(2019, 1, 7).weekday() = 0 (monday)
+thread_obj = threading.Thread(target=spam) / thread_obj.start()
+donc make 2 thread ob of same variables or parts of code
