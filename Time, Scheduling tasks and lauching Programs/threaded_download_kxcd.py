@@ -1,4 +1,4 @@
-# downloadXkcd.py - Downloads every single XKCD comic.
+*/# downloadXkcd.py - Downloads every single XKCD comic./
 import requests
 import os
 import bs4
@@ -50,3 +50,5 @@ for i in range(0, 140, 10): # loops 14 times, creates 14 threads
 for downloadThread in downloadThreads:
     downloadThread.join()
 print('Done.')
+222222222-;63
+0/

@@ -1,10 +1,2 @@
-from unicodedata import name
-
-
-def ask_name():
-    print('What is your name ? ')
-    name = input()
-    return name
-
-tdb = ask_name()
-print('Hello, '+ tdb )
+chapter_num = "1071"
+print(chapter_num)
