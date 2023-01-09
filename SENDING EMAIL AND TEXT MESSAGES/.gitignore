@@ -1,3 +1,4 @@
 *.json
 quickstart.py
 *.pdf
+.env
